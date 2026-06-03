@@ -1,0 +1,15 @@
+# Ignore python virtual environment
+dl_env/
+__pycache__/
+*.pyc
+
+# CRITICAL: Ignore all dataset images and folders to avoid GitHub size limit
+**/data/train/
+**/data/test/
+*.csv
+*.h5
+*.pt
+
+# Ignore VS Code local settings
+.vscode/
+.ipynb_checkpoints/
