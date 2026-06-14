@@ -1,49 +1,49 @@
-# 🧠 Deep Learning Master Portfolio (Pure PyTorch Pipeline)
+# 🧠 Deep Learning Production Portfolio (Pure PyTorch Pipeline)
 
-Welcome to my Deep Learning repository. This portfolio showcases a structured, production-grade implementation of deep learning algorithms built entirely using **PyTorch**, spanning across Tabular Analysis, Computer Vision (CV), Time-Series Forecasting, and Natural Language Processing (NLP).
+Welcome to my core Deep Learning repository. This portfolio demonstrates professional, production-grade deep learning engineering implementations built entirely from the ground up using **PyTorch**. The repository covers multi-domain machine learning workflows including Tabular Classification, Advanced Spatial Computer Vision, Pixel-Array Transformation, Chronological Time-Series Forecasting, and Natural Language Processing (NLP) sequence modeling.
 
-Each project is self-contained within its own directory featuring dedicated datasets (structured in CSV formats) and independent professional technical documentation.
-
----
-
-## 🛠️ Core Technology Stack & Architecture
-
-* **Deep Learning Framework:** PyTorch (`torch`, `torch.nn`, `torch.optim`)
-* **Computer Vision Tools:** Torchvision (`transforms`, `datasets`), PIL (Pillow)
-* **Data Preprocessing & Analytics:** Scikit-Learn (`sklearn`), Pandas, NumPy
-* **Visualization Engineering:** Matplotlib, Seaborn
+Every project inside this ecosystem is strictly isolated within its own dedicated micro-directory containing standalone data structures managed in scalable CSV formats, decoupled algorithmic notebooks, and independent architectural documentation.
 
 ---
 
-## 📂 Repository Structure
+## 🛠️ Unified Technology Stack & Engineering Ecosystem
+
+* **Core AI Framework:** PyTorch Core Framework (`torch`, `torch.nn`, `torch.optim`, `torch.utils.data`)
+* **Computer Vision Suite:** Torchvision Suite (`transforms`, `datasets`), Pillow (`PIL`)
+* **Analytics Engineering:** Scikit-Learn Ecosystem (`sklearn`), Pandas Core DataFrame, NumPy Core Arrays
+* **Visualization Engineering:** Matplotlib Pipelines, Seaborn Visualization Systems
+
+---
+
+## 📂 Structural Directory Topology
 
 ```text
 DL_PROJECTS/
 │
-├── .gitignore                         # Prevents tracking of model weights (.pt) and heavy CSVs
-├── README.md                          # Main master portfolio guide
+├── .gitignore                         # Strategic mask blocking datasets and runtime models
+├── README.md                          # Master global repository guide & portfolio mapping
 │
 ├── Project1_Bank_Churn_ANN/
-│   ├── data/customer_churn.csv        # 10,000 structured bank records
-│   ├── notebooks/bank_churn_ann.ipynb # Pure PyTorch ANN training pipeline
-│   └── README.md                      # Detailed project documentation
+│   ├── data/customer_churn.csv        # Tabular client behavior array (10,000 samples)
+│   ├── notebooks/bank_churn_ann.ipynb # Feedforward Multi-Layer Perceptron pipeline
+│   └── README.md                      # Tabular classification documentation
 │
 ├── Project2_Plant_Disease_CNN/
-│   ├── data/plant_dataset.csv         # Image metadata and category mappings
-│   ├── notebooks/plant_disease.ipynb  # Custom Multi-layer Convolutional Network
-│   └── README.md                      # Feature map & vision documentation
+│   ├── data/plant_dataset.csv         # Local path indices and label references
+│   ├── notebooks/plant_disease.ipynb  # Multi-stage image feature extraction CNN
+│   └── README.md                      # Image classification documentation
 │
 ├── Project3_Sign_Language_CNN/
-│   ├── data/sign_digits.csv           # 4,096 flattened pixel arrays per row
-│   ├── notebooks/sign_digits.ipynb    # Multi-class spatial pixel transformation CNN
-│   └── README.md                      # Gesture classification guide
+│   ├── data/sign_digits.csv           # 4,096 flat row-wise pixel structural components
+│   ├── notebooks/sign_digits.ipynb    # Multi-class spatial pixel tensor reshaping model
+│   └── README.md                      # Alphanumeric gesture documentation
 │
 ├── Project4_Stock_LSTM/
-│   ├── data/stock_prices.csv          # 5-year chronological closing prices
-│   ├── notebooks/stock_lstm.ipynb     # Time-Series LSTM Recurrent Architecture
-│   └── README.md                      # Forecasting and evaluation graphs
+│   ├── data/stock_prices.csv          # 5-year daily chronological asset closing quotes
+│   ├── notebooks/stock_lstm.ipynb     # Chronological sequential memory LSTM model
+│   └── README.md                      # Regression forecasting documentation
 │
 └── Project5_Sentiment_RNN/
-    ├── data/customer_reviews.csv      # Natural language feedback text & polarity labels
-    ├── notebooks/sentiment_rnn.ipynb  # Word-Embedding GRU Recurrent Network
-    └── README.md                      # Tokenization and NLP sequence guide
+    ├── data/customer_reviews.csv      # Customer review text feedback pairs
+    ├── notebooks/sentiment_rnn.ipynb  # Dense Word-Embedding GRU Recurrent Classifier
+    └── README.md                      # Natural Language Processing documentation
